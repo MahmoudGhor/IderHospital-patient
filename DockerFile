@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8092
+ADD /target/IderHospital-patient-0.0.1-SNAPSHOT.jar docker-IderHospital-patient.jar
+CMD java -jar docker-IderHospital-patient.jar
